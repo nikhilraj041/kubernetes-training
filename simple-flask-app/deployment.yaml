@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: simple-flask-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: simple-flask-app
+  template:
+    metadata:
+      labels:
+        app: simple-flask-app
+    spec:
+      containers:
+      - name: simple-flask-app
+        image: simple-flask-app:latest
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8080

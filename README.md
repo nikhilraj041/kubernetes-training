@@ -1,7 +1,7 @@
 # kubernetes-training
 Kubernetes Training Material
 
-Slide: 
+Slide: https://docs.google.com/presentation/d/1-dmZFjMTp3SOQxQZr7hnMs91K8SRQWJRUTACKRFDgq4/edit?usp=sharing
 
 Activities to try:
 * **List Nodes & Other K8s Resources**
